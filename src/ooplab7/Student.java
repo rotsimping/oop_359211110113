@@ -1,5 +1,5 @@
 package ooplab7;
-//talking about student?
+//talking about student ?
 //1.Student ID
 //2.Name
 //3.person ID
@@ -13,21 +13,20 @@ public class Student {
     //properties of Student class
     private String id;
     private String name;
-    private  String pid;
+    private String pid;
     private String address;
     //Constructor
-    //default constructor
+    //default contructor
     public Student(){}
     //create by own
-    public Student(String id, Student n, String pid, String a){
-        //assign date to class properties
+    public Student (String id,String n,String pid,String a){
+        //assign data to class properties
         this.id = id;
         this.name = n;
         this.pid = pid;
         this.address = a;
     }
     //getter and setter methods
-
 
     @Override
     public String toString() {
@@ -70,4 +69,5 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
+
 }//class
